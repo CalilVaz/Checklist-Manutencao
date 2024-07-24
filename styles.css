@@ -1,0 +1,143 @@
+img {
+  width: 50%;
+  margin: 1rem 0;
+}
+
+#contentButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+#generate-pdf {
+  width: 8rem;
+  background: rgb(0, 62, 143);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+/* ========================================================================================================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+}
+
+main {
+  background-color: rgb(243, 250, 255);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+header {
+  gap: 1rem;
+}
+
+form {
+  width: 85%;
+  max-width: 50rem;
+  gap: 0.7rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  /* font-size: medium; */
+}
+
+input,
+select {
+  padding: 0.2rem;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.cardItem {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0.5px 0.5px 1px grey;
+}
+
+button#submit {
+  margin-top: 1rem;
+  background: rgb(223, 2, 2);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 2rem;
+  color: white;
+  /* font-weight: 600; */
+}
+
+button#submit:hover {
+  background: rgb(255, 0, 0);
+  transition: 0.2s;
+}
+
+/* Classe para indicar campos não preenchidos */
+.invalid {
+  border: 1px solid red;
+  color: red;
+}
+
+/* Tabela do PDF */
+
+div#content {
+  width: 90%;
+}
+
+table {
+  flex-direction: column;
+  /* height: 100vh; */
+  width: 110%;
+}
+
+div#content div {
+  display: flex;
+  width: 110%;
+}
+
+.textPDF {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div#content div p {
+  width: 65%;
+}
+
+th,
+td,
+tr,
+div#content div p {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.setor {
+  text-align: left;
+}
+
+td {
+  width: 25px;
+}
+
+#headerPDF {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
